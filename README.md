@@ -8,9 +8,9 @@ Uma aplicação de lista de tarefas simples, funcional e com um toque de persona
 
 ## 💡 Sobre o projeto
 
-Esse projeto nasceu da vontade de construir algo útil do zero, sem frameworks, sem bibliotecas, sem atalhos. É uma to-do list que faz o que promete: te deixa adicionar tarefas, marcar as concluídas e deletar as que não precisa mais — tudo isso persistindo os dados no `localStorage`, ou seja, suas tarefas continuam lá mesmo depois de fechar o navegador.
+Esse projeto nasceu como objetivo de estudar melhor manipulação de array e de elementos DOM com JS, sem frameworks, sem bibliotecas, sem atalhos. As funcionalidades da aplicação são as principais de uma to-do list: dar nome para a task, marcar as concluídas e deletar as que não precisa mais — tudo isso persistindo os dados no `localStorage`, ou seja, suas tarefas continuam lá mesmo depois de fechar o navegador.
 
-Por baixo dos panos, tem mais cuidado do que parece: checkboxes com IDs dinâmicos, eventos por closure, manipulação de DOM e sincronização com o armazenamento local. Nada de mágica, só JavaScript.
+Checkboxes com IDs dinâmicos, eventos por closure, manipulação de DOM e sincronização com o armazenamento local. Tudo usando JS Vanilla.
 
 ---
 
