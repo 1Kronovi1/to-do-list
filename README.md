@@ -58,7 +58,7 @@ Depois é só abrir o `index.html` direto no browser. Simples assim.
 
 ---
 
-## 🧠 O que aprendi
+## 🧠 Reforcei o aprendizado em:
 
 - Como criar e manipular elementos do DOM dinamicamente com JavaScript
 - Como usar **closure** para que cada botão/evento "lembre" a qual task pertence
