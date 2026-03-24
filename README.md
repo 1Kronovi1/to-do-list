@@ -73,5 +73,3 @@ Depois é só abrir o `index.html` direto no browser. Simples assim.
 O projeto está funcional e deployado. Melhorias futuras podem incluir edição de tarefas, filtros por status e uma interface ainda mais refinada.
 
 ---
-
-Feito com curiosidade e JavaScript puro. ☕
