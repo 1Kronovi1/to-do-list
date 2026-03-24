@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --prim-color: #fff;
+    --sec-color: #f1f3f6;
+    --focal-color: #0080FF;
+    --text-color: #232427;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    background-color: var(--sec-color);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    width: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#tasklist {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+#header #task-name {
+    background-color: var(--prim-color);
+    padding: 15px;
+    height: 55px;
+    border-radius: 5px;
+    width: 240px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+#task-name::placeholder {
+    color: #3636373a;
+}
+
+#add-task-btn {
+    padding: 15px;
+    height: 55px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: var(--focal-color);
+    border: none;
+    outline: none;
+    color: var(--prim-color);
+    font-weight: bolder;
+    font-size: 16px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    rotate: 1.5deg;
+}
+
+#add-task-btn:active {
+    rotate: 3deg;
+    transform: scale(0.97);
+}
+
+#tasklist {
+    width: 100%
+}
+
+.task {
+    background-color: var(--prim-color);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.task-checked {
+    background-color: rgba(97, 255, 97, 0.221);
+    display: flex;
+    flex-direction: row;
+    text-decoration: line-through;
+    color: #2324277c;
+    width: 100%;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.taskname {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.delete {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.delete:hover {
+    rotate: 6deg;
+}
+
+.delete:active {
+    rotate: 9deg;
+    transform: scale(0.9);
+}
